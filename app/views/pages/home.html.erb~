@@ -1,4 +1,7 @@
-<%= link_to "Home", root_path %>
-<%= link_to "about", about_path %>
-<h1>fuck ya</h1>
-<p>This is something <%= link_to "here", "#" %>,</p>
+<div class="jumbotron center">
+	<h1>fuck ya</h1>
+	<p> 
+	<%= link_to "PLAY", "#", class: "btn btn-default btn-lg" %>,
+	<%= link_to "DONATE", "#", class: "btn btn-primary btn-lg" %>,
+	</p>
+</div>
